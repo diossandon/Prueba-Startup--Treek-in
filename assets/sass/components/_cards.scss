@@ -1,0 +1,60 @@
+@media only screen and (min-width: 1200px) {
+
+  .prices__card {
+    background-color: $white;
+    border: 1px solid $spanish-gray;
+    width: 19rem;
+    margin: 2rem;
+
+    &:hover {
+      box-shadow: 0 8px 6px -6px $nickel;
+    }
+
+    &--box {
+      padding: 1rem;
+
+      &-border {
+        border-top: 1px solid $onyx;
+        border-bottom: 1px solid $onyx;
+        height: 15rem;
+        padding: .9rem;
+        margin-top: 1rem;
+
+        li {
+          margin: .5rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .prices__card {
+    background-color: $white;
+    border: 1px solid $spanish-gray;
+    width: 19rem;
+    margin: 2rem;
+
+    &:hover {
+      box-shadow: 0 8px 6px -6px $nickel;
+    }
+
+    &--box {
+      padding: 1rem;
+      background-color: $white;
+
+      &-border {
+        border-top: 1px solid $onyx;
+        border-bottom: 1px solid $onyx;
+        height: 15rem;
+        padding: .9rem;
+        margin-top: 1rem;
+
+        li {
+          margin: .5rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,148 @@
+@media only screen and (min-width: 1200px) {
+  .graphic {
+    &__features {
+      width: 60rem;
+      padding: 3rem;
+    }
+
+    &__section {
+      padding: 2rem 0;
+    }
+
+    &__title {
+      margin-bottom: 6rem;
+    }
+
+    &__bar-graphic {
+
+      &--progress {
+        padding: 4% 3%;
+        width: 55%;
+      }
+    }
+
+    &__bar-graphic--statistics {
+      margin: 1.5rem;
+    }
+
+    &__bar-graphic--text {
+      line-height: 2.5rem;
+    }
+  }
+
+  .prices__title {
+    color: $white;
+    margin-top: 80%;
+
+  }
+
+  .prices__background {
+    margin-top: -44rem;
+    background-image: url("../../assets/images/bg-price.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .graphic {
+    &__features {
+      width: 50rem;
+      padding: 3rem;
+    }
+
+    &__title {
+      margin-bottom: 2rem;
+      font-size: $xxxxx-large;
+    }
+
+    &__bar-graphic--statistics {
+      font-size: $x-large;
+    }
+
+    &__bar-graphic--text {
+      line-height: 1.8rem;
+      font-size: $medium;
+      padding-left: 3%;
+    }
+  }
+
+  .prices__title {
+    color: $white;
+
+  }
+
+  .prices__background {
+    background-image: url("../../assets/images/bg-price.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .graphic {
+    &__features {
+      width: 40rem;
+      padding: 3rem .8rem;
+    }
+
+    &__section {
+      padding: 1rem 0;
+    }
+
+    &__title {
+      margin-bottom: 2rem;
+      font-size: $xx-large;
+    }
+
+    &__bar-graphic {
+      display: block;
+      width: 90%;
+      text-align: center;
+
+      &--progress {
+        padding: 8% 3%;
+      }
+    }
+
+    &__bar-graphic--statistics {
+      font-size: $large;
+      margin: 0;
+    }
+
+    &__bar-graphic--text {
+      line-height: 1.5rem;
+      font-size: $small;
+    }
+
+  }
+
+  .prices__title {
+    color: $white;
+
+  }
+
+  .prices__background {
+    background-image: url("../../assets/images/bg-price.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+  }
+
+
+
+}

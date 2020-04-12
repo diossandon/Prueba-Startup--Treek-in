@@ -1,0 +1,32 @@
+.footer {
+  background-color: $raising-black;
+  padding: 4rem 8rem;
+  display: flex;
+
+  &__text {
+    color: $white;
+    margin-right: 4rem;
+  }
+
+  &__trekk-in {
+    display: flex;
+    justify-self: flex-end;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    padding: 2rem 2.8rem;
+    padding-left: 2.6rem;
+
+    &__text {
+      margin-right: 1.6rem;
+    }
+
+    &__trekk-in {
+      margin: 2rem auto;
+    }
+  }
+
+}

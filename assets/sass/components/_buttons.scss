@@ -1,0 +1,58 @@
+.button {
+  font-family: $Raleway;
+  font-size: $small;
+  text-align: center;
+  font-weight: $bold;
+  padding: .7rem 2rem;
+
+}
+
+.button__register {
+  background-color: $ball-blue;
+  border: 1px solid $ball-blue;
+  color: $white;
+
+  &:hover {
+    background-color: $blue-lagoon;
+    border: 1px solid $blue-lagoon;
+  }
+
+  &:focus {
+    background-color: $silver-chalice;
+  }
+}
+
+.button__size {
+  &-regular {
+    padding: 1rem 1.8rem;
+  }
+
+  &--XL {
+    padding: .5rem 5rem;
+  }
+}
+
+.button__prices {
+  background-color: $ball-blue;
+  border: 1px solid $ball-blue;
+  color: $white;
+
+  &:hover {
+    background-color: $blue-lagoon;
+    border: 1px solid $blue-lagoon;
+  }
+
+  &:focus {
+    background-color: $silver-chalice;
+  }
+}
+
+.button__size {
+  &-regular {
+    padding: 1rem 1.8rem;
+  }
+
+  &--XL {
+    padding: .5rem 5rem;
+  }
+}

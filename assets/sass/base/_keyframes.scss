@@ -1,0 +1,49 @@
+ @keyframes animationFrames {
+     0% {
+         opacity: 0.15;
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
+
+ @-moz-keyframes animationFrames {
+     0% {
+         opacity: 0.15;
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
+
+ @-webkit-keyframes animationFrames {
+     0% {
+         opacity: 0.15;
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
+
+ @-o-keyframes animationFrames {
+     0% {
+         opacity: 0.15;
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
+
+ @-ms-keyframes animationFrames {
+     0% {
+         opacity: 0.15;
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
